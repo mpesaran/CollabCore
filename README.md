@@ -27,7 +27,24 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://[github.com/your-username/collabcore.git](https://github.com/mpesaran/CollabCore)
+   git clone https://https://github.com/mpesaran/CollabCore.git
    cd collabcore
 2. Install dependencies:
-3. 
+   ```
+   npm install
+3. Set up Firebase:
+   - Create a Firebase project here.
+
+   - In your Firebase project, navigate to Project Settings and find your Firebase configuration.
+
+   - Create a new file in the root of your project called .env and add your Firebase credentials as environment variables:
+     ```
+      REACT_APP_API_KEY=YOUR_API_KEY
+      REACT_APP_AUTH_DOMAIN=YOUR_AUTH_DOMAIN
+      REACT_APP_PROJECT_ID=YOUR_PROJECT_ID
+      REACT_APP_STORAGE_BUCKET=YOUR_STORAGE_BUCKET
+      REACT_APP_MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
+      REACT_APP_APP_ID=YOUR_APP_ID
+
+4. Add .env to your .gitignore file to ensure it’s not pushed to your repository:
+
