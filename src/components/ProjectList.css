@@ -24,6 +24,7 @@
     margin-top: 20px;
     padding-top: 10px;
     border-top: 1px solid #eee;
+    display: flex;
   }
   .project-list ul {
     margin: 10px 0;
@@ -31,6 +32,7 @@
   }
   .project-list li {
     margin-right: 10px;
+    list-style: none;
   }
   .project-list .avatar {
     width: 30px;

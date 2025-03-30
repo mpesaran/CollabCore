@@ -4,12 +4,12 @@ import 'firebase/auth'
 import 'firebase/storage'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCpjPv6KiEh2iqfPcyMaPYxdHeYI-VFkDQ",
-    authDomain: "collabcore-d3ae2.firebaseapp.com",
-    projectId: "collabcore-d3ae2",
-    storageBucket: "collabcore-d3ae2.appspot.com",
-    messagingSenderId: "431904659491",
-    appId: "1:431904659491:web:416d6fb7e4f58d629ab996"
+    apiKey: process.env.REACT_APP_API_KRY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID
   };
 
   // init firebase

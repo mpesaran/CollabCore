@@ -51,6 +51,8 @@ export const useSignup = () => {
     }
   }
 
+  
+  // Use a ref to track the cancellation state
   const isCancelledRef = useRef(false)
 
   useEffect(() => {
