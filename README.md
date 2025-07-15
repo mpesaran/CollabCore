@@ -93,6 +93,12 @@ To deploy:
 ### Filter Projects
 ![filter projects](./collab-filter%20development.png)
 
+### 🔐 Demo Account
+Use the credentials below to explore the app:
+
+**Email:** sarah@email.com 
+**Password:** 123456
+
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, report issues, or open pull requests.
 
